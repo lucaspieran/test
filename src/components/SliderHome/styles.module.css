@@ -1,0 +1,54 @@
+.customC :after,
+.customC :before {
+  content: '';
+  background: #202020;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 20px;
+}
+
+.customC:after {
+  content: '';
+  background: #202020;
+  position: absolute;
+  bottom: 0px;
+  left: -1px;
+  width: 101%;
+  height: 20px;
+}
+
+.customCl :after,
+.customCl :before {
+  content: '';
+  background: #202020;
+  position: absolute;
+  top: -2px;
+  left: 0px;
+  width: 100%;
+  height: 20px;
+  border-radius: 0% 0% 0 100%;
+}
+.customCl :after {
+  top: auto;
+  bottom: -1px;
+  border-radius: 100% 0 0;
+}
+
+.customCr :after,
+.customCr :before {
+  content: '';
+  background: #202020;
+  position: absolute;
+  top: -10px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 0% 0 100% 0%;
+}
+.customCr :after {
+  top: auto;
+  bottom: -14px;
+  border-radius: 0% 110% 100% 100%;
+}
